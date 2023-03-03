@@ -8,4 +8,5 @@ data = pd.DataFrame({'whoAmI':lst})
 y = LabelBinarizer().fit_transform(data)
 
 print(data.head())
+print (y)
 
